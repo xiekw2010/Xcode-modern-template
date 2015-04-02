@@ -30,3 +30,12 @@ mkdir -p "$installDirectory"
 # Copy all of the xctemplate folders into the install directory.
 cp -r *.xctemplate "$installDirectory"
 
+mkdir -p "$installDirectory"/"Base.xctemplate/Supporting Files/"
+mkdir -p "$installDirectory"/"iOS Application.xctemplate/Vendors/"
+mkdir -p "$installDirectory"/"iOS Application.xctemplate/Common/"
+mkdir -p "$installDirectory"/"iOS Application.xctemplate/Classes/"
+mkdir -p "$installDirectory"/"iOS Application.xctemplate/Controllers/"
+mkdir -p "$installDirectory"/"iOS Application.xctemplate/Categories/"
+mkdir -p "$installDirectory"/"iOS Application.xctemplate/Views/"
+mkdir -p "$installDirectory"/"iOS Application.xctemplate/Resources/"
+mkdir -p "$installDirectory"/"iOS Application.xctemplate/Models/"
