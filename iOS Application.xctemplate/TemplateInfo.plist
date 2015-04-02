@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ancestors</key>
+	<array>
+		<string>com.yiyan.objectiveCApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Definitions</key>
+	<dict>
+		<key>Supporting Files/Prefix.pch:objC:importUIKit</key>
+		<string>@import UIKit;</string>
+		<key>Supporting Files/Info.plist:iPhone</key>
+		<string>&lt;key&gt;CFBundleDisplayName&lt;/key&gt;
+&lt;string&gt;${PRODUCT_NAME}&lt;/string&gt;
+&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
+&lt;true/&gt;
+&lt;key&gt;UIRequiredDeviceCapabilities&lt;/key&gt;
+&lt;array&gt;
+	&lt;string&gt;armv7&lt;/string&gt;
+&lt;/array&gt;</string>
+		<key>Supporting Files/Info.plist:UISupportedInterfaceOrientations</key>
+		<string>&lt;key&gt;UISupportedInterfaceOrientations&lt;/key&gt;
+&lt;array&gt;
+     &lt;string&gt;UIInterfaceOrientationPortrait&lt;/string&gt;
+     &lt;string&gt;UIInterfaceOrientationLandscapeLeft&lt;/string&gt;
+     &lt;string&gt;UIInterfaceOrientationLandscapeRight&lt;/string&gt;
+&lt;/array&gt;
+&lt;key&gt;UISupportedInterfaceOrientations~ipad&lt;/key&gt;
+&lt;array&gt;
+	&lt;string&gt;UIInterfaceOrientationPortrait&lt;/string&gt;
+	&lt;string&gt;UIInterfaceOrientationPortraitUpsideDown&lt;/string&gt;
+	&lt;string&gt;UIInterfaceOrientationLandscapeLeft&lt;/string&gt;
+	&lt;string&gt;UIInterfaceOrientationLandscapeRight&lt;/string&gt;
+&lt;/array&gt;</string>
+		<key>Supporting Files/Info.plist:Launch Screen</key>
+		<string>&lt;key&gt;Launch screen interface file base name&lt;/key&gt;
+&lt;array&gt;
+     &lt;string&gt;UIInterfaceOrientationPortrait&lt;/string&gt;
+     &lt;string&gt;UIInterfaceOrientationLandscapeLeft&lt;/string&gt;
+     &lt;string&gt;UIInterfaceOrientationLandscapeRight&lt;/string&gt;
+&lt;/array&gt;
+&lt;key&gt;UISupportedInterfaceOrientations~ipad&lt;/key&gt;
+&lt;array&gt;
+	&lt;string&gt;UIInterfaceOrientationPortrait&lt;/string&gt;
+	&lt;string&gt;UIInterfaceOrientationPortraitUpsideDown&lt;/string&gt;
+	&lt;string&gt;UIInterfaceOrientationLandscapeLeft&lt;/string&gt;
+	&lt;string&gt;UIInterfaceOrientationLandscapeRight&lt;/string&gt;
+&lt;/array&gt;</string>
+		<key>Supporting Files/main.m</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>main.m</string>
+		</dict>
+		<key>../Podfile</key>
+		<dict>
+			<key>Path</key>
+			<string>Podfile</string>
+		</dict>
+		<key>Classes/</key>
+		<dict>
+			<key>Path</key>
+			<string>Classes</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Classes/Controllers/</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+			</array>
+			<key>Path</key>
+			<string>Controllers</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Classes/Controllers/HomeViewController.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Controllers</string>
+			</array>
+			<key>Path</key>
+			<string>HomeViewController.h</string>
+		</dict>
+		<key>Classes/Controllers/HomeViewController.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Controllers</string>
+			</array>
+			<key>Path</key>
+			<string>HomeViewController.m</string>
+		</dict>
+		<key>Classes/Views/</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+			</array>
+			<key>Path</key>
+			<string>Views</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Classes/Categories/</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+			</array>
+			<key>Path</key>
+			<string>Categories</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Classes/Vendors/</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+			</array>
+			<key>Path</key>
+			<string>Vendors</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Classes/Models/</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+			</array>
+			<key>Path</key>
+			<string>Models</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Classes/AppDelegate.h</key>
+		<dict>
+			<key>Group</key>
+			<string>Classes</string>
+			<key>Path</key>
+			<string>AppDelegate.h</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Classes/AppDelegate.m</key>
+		<dict>
+			<key>Group</key>
+			<string>Classes</string>
+			<key>Path</key>
+			<string>AppDelegate.m</string>
+		</dict>
+		<key>Resources/</key>
+		<dict>
+			<key>Path</key>
+			<string>Resources</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Resources/Images.xcassets</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Resources</string>
+			</array>
+			<key>Path</key>
+			<string>Images.xcassets</string>
+		</dict>
+		<key>Resources/InfoPlist.strings</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Resources</string>
+			</array>
+			<key>Path</key>
+			<string>InfoPlist.strings</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>用一个简单的Template, enjoy it!</string>
+	<key>Identifier</key>
+	<string>com.yiyan.iOSApplication</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Nodes</key>
+	<array>
+		<string>Supporting Files/Prefix.pch:objC:importUIKit</string>
+		<string>Supporting Files/Info.plist:iPhone</string>
+		<string>Supporting Files/Info.plist:UISupportedInterfaceOrientations</string>
+		<string>Supporting Files/main.m</string>
+		<string>Resources/</string>
+		<string>Resources/Images.xcassets</string>
+		<string>Resources/InfoPlist.strings</string>
+		<string>Classes/</string>
+		<string>Classes/Models/</string>
+		<string>Classes/Controllers/</string>
+		<string>Classes/Controllers/HomeViewController.h</string>
+		<string>Classes/Controllers/HomeViewController.m</string>
+		<string>Classes/Views/</string>
+		<string>Classes/Categories/</string>
+		<string>Classes/Vendors/</string>
+		<string>Classes/AppDelegate.h</string>
+		<string>Classes/AppDelegate.m</string>
+		<string>../Podfile</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array/>
+	<key>Project</key>
+	<dict>
+		<key>SDK</key>
+		<string>iphoneos</string>
+		<key>SharedSettings</key>
+		<dict>
+			<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+			<string>7.0</string>
+		</dict>
+	</dict>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>SharedSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+			</dict>
+			<key>TargetIdentifier</key>
+			<string>com.apple.dt.cocoaTouchApplicationTarget</string>
+		</dict>
+	</array>
+</dict>
+</plist>
