@@ -1,8 +1,13 @@
 # Overview
 
-如果你也很烦Xcode默认的Single view controller 新工程template，也许你会赞成这个项目。
+如果你觉得Xcode默认的Single view controller project template不能满足你的通用需求。
 
-这里自动帮你创建一个更常用的目录结构的xcode项目。如果你也怀念
+1. 妈的没有pch文件了。
+2. 妈的我不想要storyboard。
+3. 妈的还要建一遍文件的目录结构, Models, Views, Controllers, Vendors。
+4. 我想有个podfile。
+
+这些这个Temp都帮你搞定了。
 
 如图所示：
 
