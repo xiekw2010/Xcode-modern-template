@@ -1,4 +1,4 @@
-folderName="Modern Template"
+folderName="Yiyan Template"
 
 installDirectory=~/Library/Developer/Xcode/Templates/Project\ Templates/"$folderName"
 

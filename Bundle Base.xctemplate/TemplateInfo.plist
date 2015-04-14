@@ -71,64 +71,7 @@
 		<string>Supporting Files/Info.plist:Versioning</string>
 	</array>
 	<key>Options</key>
-	<array>
-		<dict>
-			<key>Identifier</key>
-			<string>bundleIdentifierPrefix</string>
-			<key>Name</key>
-			<string>Bundle Identifier Prefix</string>
-			<key>Default</key>
-			<string>com.domain</string>
-			<key>Description</key>
-			<string>The project&apos;s bundle identifier prefix.</string>
-			<key>EmptyReplacement</key>
-			<string>com.domainname</string>
-			<key>Type</key>
-			<string>text</string>
-			<key>Required</key>
-			<true/>
-			<key>NotPersisted</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>classPrefix</string>
-			<key>Type</key>
-			<string>text</string>
-			<key>Required</key>
-			<string>YES</string>
-			<key>Name</key>
-			<string>Class Prefix</string>
-			<key>Description</key>
-			<string>The prefix for all the classes in the bundle.</string>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>organizationName</string>
-			<key>Name</key>
-			<string>Organization Name:</string>
-			<key>Description</key>
-			<string>Your company&apos;s name</string>
-			<key>Type</key>
-			<string>text</string>
-			<key>Default</key>
-			<string>___FULLUSERNAME___</string>
-		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>bundleIdentifier</string>
-			<key>Name</key>
-			<string>Bundle Identifier:</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>Description</key>
-			<string>Your new product&apos;s bundle identifier</string>
-			<key>Default</key>
-			<string>___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___VARIABLE_productName:RFC1034Identifier___</string>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
-	</array>
+	<array/>
 	<key>Targets</key>
 	<array>
 		<dict>

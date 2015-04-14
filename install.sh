@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# Default the folder name to "Modern Template".
-folderName="Modern Template"
+# Default the folder name to "Yiyan Template".
+folderName="Yiyan Template"
 
 # Ensure that at most one argument has been passed in.
 if [ "$#" -eq 1 ]
@@ -9,7 +9,7 @@ then
 	folderName=$1
 elif [ "$#" -gt 1 ]
 then
-	echo -e "This script takes one argument at most.\\ne.g. install.sh \"Modern Template\""
+	echo -e "This script takes one argument at most.\\ne.g. install.sh \"$folderName\""
 	exit 1
 fi
 
@@ -31,11 +31,11 @@ mkdir -p "$installDirectory"
 cp -r *.xctemplate "$installDirectory"
 
 mkdir -p "$installDirectory"/"Base.xctemplate/Supporting Files/"
-mkdir -p "$installDirectory"/"iOS Application.xctemplate/Vendors/"
-mkdir -p "$installDirectory"/"iOS Application.xctemplate/Common/"
-mkdir -p "$installDirectory"/"iOS Application.xctemplate/Classes/"
-mkdir -p "$installDirectory"/"iOS Application.xctemplate/Controllers/"
-mkdir -p "$installDirectory"/"iOS Application.xctemplate/Categories/"
-mkdir -p "$installDirectory"/"iOS Application.xctemplate/Views/"
-mkdir -p "$installDirectory"/"iOS Application.xctemplate/Resources/"
-mkdir -p "$installDirectory"/"iOS Application.xctemplate/Models/"
+mkdir -p "$installDirectory"/"Simple Application.xctemplate/Vendors/"
+mkdir -p "$installDirectory"/"Simple Application.xctemplate/Common/"
+mkdir -p "$installDirectory"/"Simple Application.xctemplate/Classes/"
+mkdir -p "$installDirectory"/"Simple Application.xctemplate/Controllers/"
+mkdir -p "$installDirectory"/"Simple Application.xctemplate/Categories/"
+mkdir -p "$installDirectory"/"Simple Application.xctemplate/Views/"
+mkdir -p "$installDirectory"/"Simple Application.xctemplate/Resources/"
+mkdir -p "$installDirectory"/"Simple Application.xctemplate/Models/"
